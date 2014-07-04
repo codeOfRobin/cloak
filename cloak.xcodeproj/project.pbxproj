@@ -22,6 +22,18 @@
 		7A99564319672A5F005EF340 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562719672A5E005EF340 /* CoreData.framework */; };
 		7A99564B19672A5F005EF340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A99564919672A5F005EF340 /* InfoPlist.strings */; };
 		7A99564D19672A5F005EF340 /* cloakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99564C19672A5F005EF340 /* cloakTests.m */; };
+		7A99565719672A7C005EF340 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565619672A7C005EF340 /* Parse.framework */; };
+		7A99566119672ADE005EF340 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565819672ADE005EF340 /* AudioToolbox.framework */; };
+		7A99566219672ADE005EF340 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565919672ADE005EF340 /* CFNetwork.framework */; };
+		7A99566319672ADE005EF340 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565A19672ADE005EF340 /* CoreLocation.framework */; };
+		7A99566419672ADE005EF340 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565B19672ADE005EF340 /* libz.dylib */; };
+		7A99566519672ADE005EF340 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565C19672ADE005EF340 /* MobileCoreServices.framework */; };
+		7A99566619672ADE005EF340 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565D19672ADE005EF340 /* QuartzCore.framework */; };
+		7A99566719672ADE005EF340 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565E19672ADE005EF340 /* Security.framework */; };
+		7A99566819672ADE005EF340 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99565F19672ADE005EF340 /* StoreKit.framework */; };
+		7A99566919672ADE005EF340 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99566019672ADE005EF340 /* SystemConfiguration.framework */; };
+		7A99566B19672B2E005EF340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A99566A19672B2E005EF340 /* Main.storyboard */; };
+		7A99566E19672B55005EF340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99566D19672B55005EF340 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,19 @@
 		7A99564819672A5F005EF340 /* cloakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cloakTests-Info.plist"; sourceTree = "<group>"; };
 		7A99564A19672A5F005EF340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A99564C19672A5F005EF340 /* cloakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cloakTests.m; sourceTree = "<group>"; };
+		7A99565619672A7C005EF340 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		7A99565819672ADE005EF340 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7A99565919672ADE005EF340 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7A99565A19672ADE005EF340 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7A99565B19672ADE005EF340 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7A99565C19672ADE005EF340 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7A99565D19672ADE005EF340 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A99565E19672ADE005EF340 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7A99565F19672ADE005EF340 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7A99566019672ADE005EF340 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7A99566A19672B2E005EF340 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		7A99566C19672B55005EF340 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A99566D19672B55005EF340 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +85,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A99566119672ADE005EF340 /* AudioToolbox.framework in Frameworks */,
+				7A99566219672ADE005EF340 /* CFNetwork.framework in Frameworks */,
+				7A99566319672ADE005EF340 /* CoreLocation.framework in Frameworks */,
+				7A99566419672ADE005EF340 /* libz.dylib in Frameworks */,
+				7A99566519672ADE005EF340 /* MobileCoreServices.framework in Frameworks */,
+				7A99566619672ADE005EF340 /* QuartzCore.framework in Frameworks */,
+				7A99566719672ADE005EF340 /* Security.framework in Frameworks */,
+				7A99566819672ADE005EF340 /* StoreKit.framework in Frameworks */,
+				7A99566919672ADE005EF340 /* SystemConfiguration.framework in Frameworks */,
 				7A99562419672A5E005EF340 /* CoreGraphics.framework in Frameworks */,
 				7A99562819672A5E005EF340 /* CoreData.framework in Frameworks */,
 				7A99562619672A5E005EF340 /* UIKit.framework in Frameworks */,
 				7A99562219672A5E005EF340 /* Foundation.framework in Frameworks */,
+				7A99565719672A7C005EF340 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +138,16 @@
 		7A99562019672A5E005EF340 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A99565819672ADE005EF340 /* AudioToolbox.framework */,
+				7A99565919672ADE005EF340 /* CFNetwork.framework */,
+				7A99565A19672ADE005EF340 /* CoreLocation.framework */,
+				7A99565B19672ADE005EF340 /* libz.dylib */,
+				7A99565C19672ADE005EF340 /* MobileCoreServices.framework */,
+				7A99565D19672ADE005EF340 /* QuartzCore.framework */,
+				7A99565E19672ADE005EF340 /* Security.framework */,
+				7A99565F19672ADE005EF340 /* StoreKit.framework */,
+				7A99566019672ADE005EF340 /* SystemConfiguration.framework */,
+				7A99565619672A7C005EF340 /* Parse.framework */,
 				7A99562119672A5E005EF340 /* Foundation.framework */,
 				7A99562319672A5E005EF340 /* CoreGraphics.framework */,
 				7A99562519672A5E005EF340 /* UIKit.framework */,
@@ -115,6 +160,9 @@
 		7A99562919672A5E005EF340 /* cloak */ = {
 			isa = PBXGroup;
 			children = (
+				7A99566A19672B2E005EF340 /* Main.storyboard */,
+				7A99566C19672B55005EF340 /* ViewController.h */,
+				7A99566D19672B55005EF340 /* ViewController.m */,
 				7A99563219672A5E005EF340 /* AppDelegate.h */,
 				7A99563319672A5E005EF340 /* AppDelegate.m */,
 				7A99563819672A5E005EF340 /* Images.xcassets */,
@@ -228,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A99566B19672B2E005EF340 /* Main.storyboard in Resources */,
 				7A99562E19672A5E005EF340 /* InfoPlist.strings in Resources */,
 				7A99563919672A5E005EF340 /* Images.xcassets in Resources */,
 			);
@@ -250,6 +299,7 @@
 			files = (
 				7A99563419672A5E005EF340 /* AppDelegate.m in Sources */,
 				7A99563719672A5E005EF340 /* cloak.xcdatamodeld in Sources */,
+				7A99566E19672B55005EF340 /* ViewController.m in Sources */,
 				7A99563019672A5E005EF340 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +417,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cloak/cloak-Prefix.pch";
 				INFOPLIST_FILE = "cloak/cloak-Info.plist";
@@ -380,6 +434,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cloak/cloak-Prefix.pch";
 				INFOPLIST_FILE = "cloak/cloak-Info.plist";

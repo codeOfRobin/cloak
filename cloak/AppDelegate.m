@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Parse/Parse.h>
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -16,11 +16,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+    
+    [Parse setApplicationId:@"jyHmWc7Ez8m9RJ0jZZw8XDfWf7KvjXoy1Sto2EPS"
+                  clientKey:@"g9j6KmdiCEcfULy6n9uaCxEeuLyh0eAJ7PrPqMIL"];
+    
+    
+        return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
