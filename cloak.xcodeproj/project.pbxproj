@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A99562219672A5E005EF340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562119672A5E005EF340 /* Foundation.framework */; };
+		7A99562419672A5E005EF340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562319672A5E005EF340 /* CoreGraphics.framework */; };
+		7A99562619672A5E005EF340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562519672A5E005EF340 /* UIKit.framework */; };
+		7A99562819672A5E005EF340 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562719672A5E005EF340 /* CoreData.framework */; };
+		7A99562E19672A5E005EF340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A99562C19672A5E005EF340 /* InfoPlist.strings */; };
+		7A99563019672A5E005EF340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99562F19672A5E005EF340 /* main.m */; };
+		7A99563419672A5E005EF340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99563319672A5E005EF340 /* AppDelegate.m */; };
+		7A99563719672A5E005EF340 /* cloak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A99563519672A5E005EF340 /* cloak.xcdatamodeld */; };
+		7A99563919672A5E005EF340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A99563819672A5E005EF340 /* Images.xcassets */; };
+		7A99564019672A5F005EF340 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99563F19672A5F005EF340 /* XCTest.framework */; };
+		7A99564119672A5F005EF340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562119672A5E005EF340 /* Foundation.framework */; };
+		7A99564219672A5F005EF340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562519672A5E005EF340 /* UIKit.framework */; };
+		7A99564319672A5F005EF340 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562719672A5E005EF340 /* CoreData.framework */; };
+		7A99564B19672A5F005EF340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A99564919672A5F005EF340 /* InfoPlist.strings */; };
+		7A99564D19672A5F005EF340 /* cloakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A99564C19672A5F005EF340 /* cloakTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A99564419672A5F005EF340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A99561619672A5E005EF340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A99561D19672A5E005EF340;
+			remoteInfo = cloak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A99561E19672A5E005EF340 /* cloak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A99562119672A5E005EF340 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A99562319672A5E005EF340 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A99562519672A5E005EF340 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A99562719672A5E005EF340 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7A99562B19672A5E005EF340 /* cloak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cloak-Info.plist"; sourceTree = "<group>"; };
+		7A99562D19672A5E005EF340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A99562F19672A5E005EF340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A99563119672A5E005EF340 /* cloak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cloak-Prefix.pch"; sourceTree = "<group>"; };
+		7A99563219672A5E005EF340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A99563319672A5E005EF340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A99563619672A5E005EF340 /* cloak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cloak.xcdatamodel; sourceTree = "<group>"; };
+		7A99563819672A5E005EF340 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A99563E19672A5F005EF340 /* cloakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A99563F19672A5F005EF340 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A99564819672A5F005EF340 /* cloakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cloakTests-Info.plist"; sourceTree = "<group>"; };
+		7A99564A19672A5F005EF340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A99564C19672A5F005EF340 /* cloakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cloakTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A99561B19672A5E005EF340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99562419672A5E005EF340 /* CoreGraphics.framework in Frameworks */,
+				7A99562819672A5E005EF340 /* CoreData.framework in Frameworks */,
+				7A99562619672A5E005EF340 /* UIKit.framework in Frameworks */,
+				7A99562219672A5E005EF340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A99563B19672A5F005EF340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99564019672A5F005EF340 /* XCTest.framework in Frameworks */,
+				7A99564319672A5F005EF340 /* CoreData.framework in Frameworks */,
+				7A99564219672A5F005EF340 /* UIKit.framework in Frameworks */,
+				7A99564119672A5F005EF340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A99561519672A5E005EF340 = {
+			isa = PBXGroup;
+			children = (
+				7A99562919672A5E005EF340 /* cloak */,
+				7A99564619672A5F005EF340 /* cloakTests */,
+				7A99562019672A5E005EF340 /* Frameworks */,
+				7A99561F19672A5E005EF340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A99561F19672A5E005EF340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A99561E19672A5E005EF340 /* cloak.app */,
+				7A99563E19672A5F005EF340 /* cloakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A99562019672A5E005EF340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A99562119672A5E005EF340 /* Foundation.framework */,
+				7A99562319672A5E005EF340 /* CoreGraphics.framework */,
+				7A99562519672A5E005EF340 /* UIKit.framework */,
+				7A99562719672A5E005EF340 /* CoreData.framework */,
+				7A99563F19672A5F005EF340 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A99562919672A5E005EF340 /* cloak */ = {
+			isa = PBXGroup;
+			children = (
+				7A99563219672A5E005EF340 /* AppDelegate.h */,
+				7A99563319672A5E005EF340 /* AppDelegate.m */,
+				7A99563819672A5E005EF340 /* Images.xcassets */,
+				7A99563519672A5E005EF340 /* cloak.xcdatamodeld */,
+				7A99562A19672A5E005EF340 /* Supporting Files */,
+			);
+			path = cloak;
+			sourceTree = "<group>";
+		};
+		7A99562A19672A5E005EF340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A99562B19672A5E005EF340 /* cloak-Info.plist */,
+				7A99562C19672A5E005EF340 /* InfoPlist.strings */,
+				7A99562F19672A5E005EF340 /* main.m */,
+				7A99563119672A5E005EF340 /* cloak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A99564619672A5F005EF340 /* cloakTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A99564C19672A5F005EF340 /* cloakTests.m */,
+				7A99564719672A5F005EF340 /* Supporting Files */,
+			);
+			path = cloakTests;
+			sourceTree = "<group>";
+		};
+		7A99564719672A5F005EF340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A99564819672A5F005EF340 /* cloakTests-Info.plist */,
+				7A99564919672A5F005EF340 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A99561D19672A5E005EF340 /* cloak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A99565019672A5F005EF340 /* Build configuration list for PBXNativeTarget "cloak" */;
+			buildPhases = (
+				7A99561A19672A5E005EF340 /* Sources */,
+				7A99561B19672A5E005EF340 /* Frameworks */,
+				7A99561C19672A5E005EF340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cloak;
+			productName = cloak;
+			productReference = 7A99561E19672A5E005EF340 /* cloak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A99563D19672A5F005EF340 /* cloakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A99565319672A5F005EF340 /* Build configuration list for PBXNativeTarget "cloakTests" */;
+			buildPhases = (
+				7A99563A19672A5F005EF340 /* Sources */,
+				7A99563B19672A5F005EF340 /* Frameworks */,
+				7A99563C19672A5F005EF340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A99564519672A5F005EF340 /* PBXTargetDependency */,
+			);
+			name = cloakTests;
+			productName = cloakTests;
+			productReference = 7A99563E19672A5F005EF340 /* cloakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A99561619672A5E005EF340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Robin's code kitchen";
+				TargetAttributes = {
+					7A99563D19672A5F005EF340 = {
+						TestTargetID = 7A99561D19672A5E005EF340;
+					};
+				};
+			};
+			buildConfigurationList = 7A99561919672A5E005EF340 /* Build configuration list for PBXProject "cloak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A99561519672A5E005EF340;
+			productRefGroup = 7A99561F19672A5E005EF340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A99561D19672A5E005EF340 /* cloak */,
+				7A99563D19672A5F005EF340 /* cloakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A99561C19672A5E005EF340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99562E19672A5E005EF340 /* InfoPlist.strings in Resources */,
+				7A99563919672A5E005EF340 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A99563C19672A5F005EF340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99564B19672A5F005EF340 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A99561A19672A5E005EF340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99563419672A5E005EF340 /* AppDelegate.m in Sources */,
+				7A99563719672A5E005EF340 /* cloak.xcdatamodeld in Sources */,
+				7A99563019672A5E005EF340 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A99563A19672A5F005EF340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99564D19672A5F005EF340 /* cloakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A99564519672A5F005EF340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A99561D19672A5E005EF340 /* cloak */;
+			targetProxy = 7A99564419672A5F005EF340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A99562C19672A5E005EF340 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A99562D19672A5E005EF340 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A99564919672A5F005EF340 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A99564A19672A5F005EF340 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A99564E19672A5F005EF340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A99564F19672A5F005EF340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A99565119672A5F005EF340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloak/cloak-Prefix.pch";
+				INFOPLIST_FILE = "cloak/cloak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A99565219672A5F005EF340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloak/cloak-Prefix.pch";
+				INFOPLIST_FILE = "cloak/cloak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A99565419672A5F005EF340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cloak.app/cloak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloak/cloak-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cloakTests/cloakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A99565519672A5F005EF340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cloak.app/cloak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloak/cloak-Prefix.pch";
+				INFOPLIST_FILE = "cloakTests/cloakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A99561919672A5E005EF340 /* Build configuration list for PBXProject "cloak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A99564E19672A5F005EF340 /* Debug */,
+				7A99564F19672A5F005EF340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A99565019672A5F005EF340 /* Build configuration list for PBXNativeTarget "cloak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A99565119672A5F005EF340 /* Debug */,
+				7A99565219672A5F005EF340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A99565319672A5F005EF340 /* Build configuration list for PBXNativeTarget "cloakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A99565419672A5F005EF340 /* Debug */,
+				7A99565519672A5F005EF340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A99563519672A5E005EF340 /* cloak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A99563619672A5E005EF340 /* cloak.xcdatamodel */,
+			);
+			currentVersion = 7A99563619672A5E005EF340 /* cloak.xcdatamodel */;
+			path = cloak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A99561619672A5E005EF340 /* Project object */;
+}
