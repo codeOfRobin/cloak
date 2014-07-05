@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3B23E219684C380057B0CC /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B23E119684C380057B0CC /* LogInViewController.m */; };
 		7A99562219672A5E005EF340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562119672A5E005EF340 /* Foundation.framework */; };
 		7A99562419672A5E005EF340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562319672A5E005EF340 /* CoreGraphics.framework */; };
 		7A99562619672A5E005EF340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562519672A5E005EF340 /* UIKit.framework */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3B23E019684C380057B0CC /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		7A3B23E119684C380057B0CC /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		7A99561E19672A5E005EF340 /* cloak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A99562119672A5E005EF340 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A99562319672A5E005EF340 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -161,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				7A99566A19672B2E005EF340 /* Main.storyboard */,
+				7A3B23E019684C380057B0CC /* LogInViewController.h */,
+				7A3B23E119684C380057B0CC /* LogInViewController.m */,
 				7A99566C19672B55005EF340 /* ViewController.h */,
 				7A99566D19672B55005EF340 /* ViewController.m */,
 				7A99563219672A5E005EF340 /* AppDelegate.h */,
@@ -299,6 +304,7 @@
 			files = (
 				7A99563419672A5E005EF340 /* AppDelegate.m in Sources */,
 				7A99563719672A5E005EF340 /* cloak.xcdatamodeld in Sources */,
+				7A3B23E219684C380057B0CC /* LogInViewController.m in Sources */,
 				7A99566E19672B55005EF340 /* ViewController.m in Sources */,
 				7A99563019672A5E005EF340 /* main.m in Sources */,
 			);
@@ -505,6 +511,7 @@
 				7A99565219672A5F005EF340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A99565319672A5F005EF340 /* Build configuration list for PBXNativeTarget "cloakTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				7A99565519672A5F005EF340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
