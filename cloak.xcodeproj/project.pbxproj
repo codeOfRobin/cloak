@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A101A74196D896600BD62F7 /* parseTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A101A73196D896600BD62F7 /* parseTestTableViewController.m */; };
 		7A3B23E219684C380057B0CC /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B23E119684C380057B0CC /* LogInViewController.m */; };
 		7A3B23E8196852070057B0CC /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B23E7196852070057B0CC /* SignUpViewController.m */; };
 		7A99562219672A5E005EF340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A99562119672A5E005EF340 /* Foundation.framework */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A101A72196D896600BD62F7 /* parseTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseTestTableViewController.h; sourceTree = "<group>"; };
+		7A101A73196D896600BD62F7 /* parseTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseTestTableViewController.m; sourceTree = "<group>"; };
 		7A3B23E019684C380057B0CC /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		7A3B23E119684C380057B0CC /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		7A3B23E6196852070057B0CC /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = ../SignUpViewController.h; sourceTree = "<group>"; };
@@ -172,6 +175,8 @@
 				7A3B23E6196852070057B0CC /* SignUpViewController.h */,
 				7A3B23E7196852070057B0CC /* SignUpViewController.m */,
 				7A99566A19672B2E005EF340 /* Main.storyboard */,
+				7A101A72196D896600BD62F7 /* parseTestTableViewController.h */,
+				7A101A73196D896600BD62F7 /* parseTestTableViewController.m */,
 				7AF6F4171969BFE2000D5C4D /* avatarViewController.h */,
 				7AF6F4181969BFE2000D5C4D /* avatarViewController.m */,
 				7A3B23E019684C380057B0CC /* LogInViewController.h */,
@@ -315,6 +320,7 @@
 				7A99563419672A5E005EF340 /* AppDelegate.m in Sources */,
 				7A99563719672A5E005EF340 /* cloak.xcdatamodeld in Sources */,
 				7A3B23E8196852070057B0CC /* SignUpViewController.m in Sources */,
+				7A101A74196D896600BD62F7 /* parseTestTableViewController.m in Sources */,
 				7A3B23E219684C380057B0CC /* LogInViewController.m in Sources */,
 				7A99566E19672B55005EF340 /* ViewController.m in Sources */,
 				7AF6F4191969BFE2000D5C4D /* avatarViewController.m in Sources */,
